@@ -1,0 +1,144 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    
+}
+h1{
+    font-size: 10px;
+    font-weight: normal;
+}
+/* .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.col{
+    text-align:justify;
+    font-size: 15px;    
+    margin: 0px 50px 0px 50px;
+}
+img{
+    width: 60%;
+}
+.item-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+
+#VcContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#OlFriendsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+#onlineIcon{
+    color: rgb(48, 235, 48);
+   
+}
+
+.OnlineCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(71, 65, 65, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 170px;
+}
+
+.UserCont{
+    text-align: center;
+    background-color: rgba(71, 65, 65, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    width: 170px;
+}
+
+#UserIcon{
+    color: black;
+}
+#Title{
+    width: 100%;
+}
+.items{
+    min-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items button{
+    padding: 0px 10px 0px 10px;
+    border-radius: 5px;
+    width:150px;
+    height: 40px;
+}
+
+.custom-btn {
+    width: 170px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+
+  }
+
+/* 15 */
+.btn-15 {
+    background: #b621fe;
+    border: none;
+    z-index: 0;
+  }
+  .btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+  .btn-15:hover {
+    color: #fff;
+  }
+  .btn-15:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .btn-15:active {
+    top: 2px;
+  }
+  
