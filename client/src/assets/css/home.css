@@ -1,4 +1,4 @@
-body{
+*{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -14,12 +14,19 @@ body{
 h1{
     font-size: 10px;
     font-weight: normal;
+    color: white;
 }
-/* .row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+p{  
+    margin-top: 20px;
+    color: white;
+}
+#Vc-Cont{
+    width: 500px;
+}
+#Ol-Cont{
+    width: 500px;
+}
+
 .col{
     text-align:justify;
     font-size: 15px;    
@@ -34,6 +41,7 @@ img{
     justify-content: center;
     flex-direction: column;
     margin-top: 80px;
+    
 }
 
 
@@ -41,26 +49,29 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 }
 #OlFriendsContainer{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
+    margin-top: 150px;
 }
 #onlineIcon{
+    margin-right: 5px;
     color: rgb(48, 235, 48);
-   
 }
 
 .OnlineCont{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: rgba(71, 65, 65, 0.1);
     border-radius: 10px;
     padding: 10px;
-    width: 170px;
+    width: 200px;
 }
 
 .UserCont{
@@ -72,6 +83,7 @@ img{
 }
 
 #UserIcon{
+    color: rgb(48, 235, 48);
     color: black;
 }
 #Title{
@@ -84,17 +96,18 @@ img{
     align-items: center;
 }
 .items button{
-    padding: 0px 10px 0px 10px;
+    padding:10px;
     border-radius: 5px;
-    width:150px;
-    height: 40px;
+    height: 43px;
+    align-self: flex-end;
 }
 
 .custom-btn {
     width: 170px;
     height: 40px;
     color: #fff;
-    border-radius: 5px;
+
+    padding: 10px;
     padding: 10px 25px;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
@@ -114,6 +127,7 @@ img{
 .btn-15 {
     background: #b621fe;
     border: none;
+    border-radius: 10px;
     z-index: 0;
   }
   .btn-15:after {

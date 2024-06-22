@@ -3,6 +3,7 @@ import Header  from './components/header';
 import "./assets/css/header.css";
 import "./assets/css/home.css";
 import './assets/css/App.css';
+import './assets/css/Background.css'
 import Home from './components/home';
 import axios from 'axios';
 function App() {
@@ -15,11 +16,25 @@ function App() {
 
   return (
     <>
-      <h1>
-        {console.log(users)}
-        </h1>
-      <Header></Header>
-      <Home></Home>
+
+      <div class="area" >
+    
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+        <Header></Header>
+        <Home></Home>
+        </div >
+      
     </>
   )
 }

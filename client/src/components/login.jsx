@@ -29,13 +29,15 @@ export default function Modal() {
             <div className="Modal-InputField">
               <input type="text" placeholder="Username or Email Address"/>
               <input type="text" placeholder="Password"/>
+              <a href="">Doesn't have an account?</a>
+              <a href="">Forgot Password!</a>
             </div>
-            <div className="btn">
-              <button className="custom-btn btn-15" onClick={toggleModal}>
+            <div className="btn-cont">
+              <button className="btn" id="login-btn">
                 Login
               </button>
-              <button className="custom-btn btn-15" onClick={toggleModal}>
-                CLOSE
+              <button className="btn" id="close-btn" onClick={toggleModal}>
+                Close
               </button>
             </div>
           </div>
